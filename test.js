@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-const jsonabc = require('./index');
+const jsonabc = require('./built/index');
 
 describe('Trailing commas', function () {
   it('should remove from plain object', function () {
