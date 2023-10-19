@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  typescript:
-    specifier: ^5.1.3
-    version: 5.1.3
-
 devDependencies:
   browserify:
     specifier: ^16.5.1
@@ -22,6 +17,9 @@ devDependencies:
   semistandard:
     specifier: ^14.2.0
     version: 14.2.0
+  typescript:
+    specifier: ^5.1.3
+    version: 5.1.3
 
 packages:
 
@@ -2863,7 +2861,7 @@ packages:
     resolution: {integrity: sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==}
     engines: {node: '>=14.17'}
     hasBin: true
-    dev: false
+    dev: true
 
   /umd@3.0.3:
     resolution: {integrity: sha512-4IcGSufhFshvLNcMCV80UnQVlZ5pMOC8mvNPForqwA4+lzYQuetTESLDQkeLmihq8bRcnpbQa48Wb8Lh16/xow==}

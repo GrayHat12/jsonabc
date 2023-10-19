@@ -3,12 +3,12 @@
 */
 
 // Is a value an array?
-function isArray<T>(val: T) {
+export function isArray<T>(val: T) {
     return Object.prototype.toString.call(val) === "[object Array]";
 }
 
 // Is a value an Object?
-function isPlainObject<T>(val: T) {
+export function isPlainObject<T>(val: T) {
     return Object.prototype.toString.call(val) === "[object Object]";
 }
 
